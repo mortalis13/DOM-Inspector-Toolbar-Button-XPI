@@ -1,0 +1,8 @@
+#dominspector-toolbarbutton{
+  list-style-image: url(chrome://dominspector-toolbarbutton/skin/images/iconSmall.png);
+}
+
+#dominspector-toolbarbutton [cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #dominspector-toolbarbutton {
+  list-style-image: url(chrome://dominspector-toolbarbutton/skin/images/iconLarge.png);
+}
